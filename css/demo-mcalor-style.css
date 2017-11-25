@@ -1,0 +1,31 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#map {
+    width: 960px;
+    height: 500px;
+}
+
+.SvgOverlay {
+    position: relative;
+    width: 960px;
+    height: 500px;           
+}
+
+.SvgOverlay svg {
+    position: absolute;
+    top: -4000px;
+    left: -4000px;
+    width: 8000px;
+    height: 8000px;        
+}
+
+.SvgOverlay path {
+    stroke: black;
+    stroke-width: 1px;
+    fill-opacity: .6;
+}
